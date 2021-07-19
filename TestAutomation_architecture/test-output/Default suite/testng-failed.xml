@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases_PKG.TestCases">
+        <methods>
+          <include name="TestLogin"/>
+          <include name="Browser_Init"/>
+          <include name="TestScript_04"/>
+          <include name="Extent_rlease"/>
+          <include name="TestScript_02"/>
+          <include name="ExtentReport_Demo"/>
+          <include name="TestScript_03"/>
+          <include name="TestScript_01"/>
+        </methods>
+      </class> <!-- TestCases_PKG.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
